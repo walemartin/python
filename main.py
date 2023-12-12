@@ -1,11 +1,10 @@
-import statistics
+import movie as m
 
-members = []
-total = 0
-with open("test.txt") as outfile:
-    for line in outfile:
-        line = line.replace("\n", "")
-        members.append(int(line))
-        total = statistics.mean(members)
-        print(members)
-print(total)
+# text = "what a wonderful example"
+# print(text[5:-4])
+
+# print(int(6.6))
+
+# print(bool(1))
+
+m.delete_movie()
